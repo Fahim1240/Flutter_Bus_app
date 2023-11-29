@@ -94,7 +94,8 @@ class HomePage extends StatelessWidget {
                         ],
                       ),
                       CircleAvatar(
-                        backgroundColor: const Color.fromARGB(255, 66, 17, 202),
+                        backgroundColor: const Color.fromARGB(255, 66, 17, 202)
+                            .withOpacity(0.1),
                         child: IconButton(
                           icon:
                               const Icon(Icons.swap_horiz, color: Colors.white),

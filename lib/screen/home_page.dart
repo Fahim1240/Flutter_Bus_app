@@ -75,7 +75,7 @@ class HomePage extends StatelessWidget {
                           Text('From'),
                           SizedBox(height: 8),
                           Text(
-                            "Kuala Lumpur",
+                            "Dhaka",
                             style: TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.w500,
@@ -85,7 +85,7 @@ class HomePage extends StatelessWidget {
                           Text('To'),
                           SizedBox(height: 8),
                           Text(
-                            "Singapore",
+                            "Cox's Bazar",
                             style: TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.w500,
@@ -126,7 +126,7 @@ class HomePage extends StatelessWidget {
                           Text('Passengers'),
                           SizedBox(height: 8),
                           Text(
-                            "1 Adult, 1 Child",
+                            "2 Adults, 1 Child",
                             style: TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.w500,
@@ -136,7 +136,7 @@ class HomePage extends StatelessWidget {
                           Text('Departure Date'),
                           SizedBox(height: 8),
                           Text(
-                            "12/12/2021",
+                            "12/12/2023",
                             style: TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.w500,
@@ -171,6 +171,9 @@ class HomePage extends StatelessWidget {
                     height: 50,
                     child: ElevatedButton(
                       onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white.withOpacity(0.1),
+                      ),
                       child: const Text('Search'),
                     ),
                   ),

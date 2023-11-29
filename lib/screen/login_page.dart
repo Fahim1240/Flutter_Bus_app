@@ -42,6 +42,20 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                Container(
+                  width: 100, // Set your desired width
+                  height: 100, // Set your desired height
+                  decoration: const BoxDecoration(
+                    image: DecorationImage(
+                      image: NetworkImage(
+                          'https://png.pngtree.com/png-clipart/20190604/original/pngtree-business-logo-design-png-image_915991.jpg'), // Replace 'your_logo.png' with your actual logo asset
+                      fit: BoxFit.contain,
+                    ),
+                  ),
+                ),
+                const SizedBox(
+                  height: 50,
+                ),
                 const Text(
                   'Welcome!',
                   style: TextStyle(
